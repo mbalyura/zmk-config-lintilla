@@ -65,13 +65,6 @@ config ZMK_SPLIT
 
 endif
 
-if SHIELD_LINTILLA_RIGHT_PERIPHERAL
-
-config ZMK_USB
-    default y
-
-endif
-
 if SHIELD_LINTILLA_MACRO_RIGHT
 
 config ZMK_KEYBOARD_NAME
