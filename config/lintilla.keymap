@@ -86,7 +86,7 @@
 &kp TAB     &hml LGUI A   &hml LALT R  &hml LCTRL S     &hml LSHIFT T      &kp D               /* | */        &kp H          &hmr LSHIFT N      &hmr LCTRL E       &hmr LALT I       &hmr LGUI O       &kp RBKT
             &kp Z         &kp X        &kp C            &kp V              &kp B               /* | */        &kp K          &kp M              &kp COMMA          &kp DOT           &kp SLASH
                                         /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-                                       &lt NAV ESC      &kp SPACE          &kp ENTER           /* | */        &kp DEL        &lt SYM ENTER      &lt NUM TAB
+                                       &kp ENTER        &lt NAV ESC        &kp SPACE           /* | */        &lt NUM TAB    &lt SYM ENTER      &kp DEL
             >;
         };
 
@@ -125,7 +125,7 @@
 
         system_layer {
             bindings = <
-                          &trans                                                                                                                                   &none
+                          &studio_unlock                                                                                                                           &none
 &none       &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2    &none              &none              /* | */        &out OUT_USB   &out OUT_BLE       &none              &none            &none          &none
 &none       &bt BT_CLR    &bt BT_CLR_ALL &none           &none              &ext_power EP_TOG  /* | */        &none          &none              &none              &none            &none          &none
             &sys_reset    &bootloader    &none           &none              &none              /* | */        &none          &none              &soft_off          &bootloader      &sys_reset
