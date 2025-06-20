@@ -81,21 +81,21 @@
 
         default_layer {
             bindings = <
-                          &kp ESC                                                                                                                                  &kp PSCRN
+                          &kp PSCRN                                                                                                                                &kp PSCRN
 &kp BSPC    &kp Q         &kp W        &kp F            &kp P              &kp G               /* | */        &kp J          &kp L              &kp U              &kp Y             &kp SEMI          &kp LBKT
-&kp TAB     &hml LGUI A   &hml LALT R  &hml LCTRL S     &hml LSHIFT T      &kp D               /* | */        &kp H          &hmr LSHIFT N      &hmr LCTRL E       &hmr LALT I       &hmr LGUI O       &kp RBKT
+&kp TAB     &hml LGUI A   &hml LALT R  &hml LCTRL S     &hml LSHIFT T      &kp D               /* | */        &kp H          &hmr LSHIFT N      &hmr LCTRL E       &hmr LALT I       &hmr LGUI O       &kp SQT
             &kp Z         &kp X        &kp C            &kp V              &kp B               /* | */        &kp K          &kp M              &kp COMMA          &kp DOT           &kp SLASH
                                         /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-                                       &kp ENTER        &lt NAV ESC        &kp SPACE           /* | */        &lt NUM TAB    &lt SYM ENTER      &kp DEL
+                                       &lt NUM ENTER    &lt NAV ESC        &kp SPACE           /* | */        &lt NUM TAB    &lt SYM ENTER      &kp DEL
             >;
         };
 
         navigation_layer {
             bindings = <
                           &trans                                                                                                                                   &trans
-&trans      &kp LC(Q)     &kp LC(W)     &kp LC(F)        &kp LC(P)          &tabber            /* | */        &kp PG_UP      &kp HOME           &kp UP             &kp END            &kp LC(SEMI)     &trans
+&kp DEL     &kp LC(Q)     &kp LC(W)     &kp LC(F)        &kp LC(P)          &tabber            /* | */        &kp PG_UP      &kp HOME           &kp UP             &kp END            &kp LC(SEMI)     &trans
 &trans      &kp LGUI      &sk LALT      &sk LCTRL        &sk LSHIFT         &kp LC(D)          /* | */        &kp PG_DN      &kp LEFT           &kp DOWN           &kp RIGHT          &kp LC(O)        &trans
-            &kp LC(Z)     &kp LC(X)     &kp LC(C)        &kp LC(V)          &swapper           /* | */        &kp LC(K)      &kt LC(M)          &kp K_CONTEXT_MENU &kp LC(PERIOD)  &kp LC(SLASH)
+            &kp LC(Z)     &kp LC(X)     &kp LC(C)        &kp LC(V)          &swapper           /* | */        &kp LC(K)      &kt LC(M)          &kp K_CONTEXT_MENU &kp LC(PERIOD)     &kp LC(SLASH)
                                         /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
                                         &trans           &trans             &trans             /* | */        &trans         &trans             &trans
             >;
